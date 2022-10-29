@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background: rgb(63,130,251);
+background: radial-gradient(circle, rgba(63,130,251,1) 0%, rgba(252,70,70,1) 100%);
+}
+
+.circle img{
+    margin-top: 15px;
+    height: auto;
+    max-width: 15%;
+    border-radius: 100%;
+    
+    
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+
+}
+
+.strip{
+    background-image: url(img/main-logo.jpg);
+    min-height:370px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+}
+
+.strip h2{
+    color:white;
+    font-size:4em;
+    text-shadow:2px 2px  black;
+    }
+  
+.center h1 {
+    padding: 5px;
+    text-align: center;
+  
+}
+
+footer{
+    background-image: url(img/SL-111219-25000-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 130%;
+    
+
+
+} 
+
+ .footer{
+   
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 30px;
+    min-height: 300px;
+   
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+#footerLeft{
+    color: white;
+    font-weight: bolder;
+    
+    
+}
+
+#id_sub button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#id_sub input{
+    border-radius: 5px;
+    box-shadow: 2px 4px #888888;
+}
+
+#footerCenter{
+    font-weight: bolder;
+}
+
+#footerCenter p{
+    font-size: x-large;
+}
+
+#footerRight {
+    display: flex;
+   flex-direction: column;
+   
+}
+
+hr{
+    border: 1px solid white;
+}
+
+
+
+/* כל הקלאסים שלמטה הם שייכים ל- peopleClass.js */
+
+.top{
+    border-radius: 50%;
+    /* ה- top הוא של התמונה בתוך הpeopleClass */
+}
+ 
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.row .out-card {
+    display: flex;
+    justify-content: center;
+
+}
+
+ 
